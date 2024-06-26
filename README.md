@@ -22,9 +22,9 @@ git remote add origin https://github.com/Shabbirsyed05/Using-Httpd-on-AWS.git
 git push -u origin main
 ```
 Above code can be written as 
-git push -u origin main
-git push --set-upsream origin main
-git push -u origin new_brach_name_after_creation
+ -git push -u origin main
+ -git push --set-upsream origin main
+ -git push -u origin new_brach_name_after_creation
 
 ### Set up an AWS EC2 instance
 
