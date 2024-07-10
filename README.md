@@ -29,7 +29,11 @@ If we are having master branch instead of main branch to change the name .
  ```
  git branch -M master main
 ```
-Note : If ur trying to push the code and it is not happening with main branch .Try to create a new branch and push it
+- Note : If ur trying to push the code and it is not happening with main branch .Try to create a new branch and push it
+- Note : If ur pulling and it is giving error (fatal: refusing to merge unrelated histories) (This command will allow Git to merge the unrelated histories. After doing this, you might need to resolve any merge conflicts that arise, then commit the merge, and push the changes to the remote repository.)
+```
+git pull origin main --allow-unrelated-histories
+```
 
 ### Set up an AWS EC2 instance
 
