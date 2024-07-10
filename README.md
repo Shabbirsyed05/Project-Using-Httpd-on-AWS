@@ -26,7 +26,9 @@ Above code can be written as
 - git push --set-upsream origin main
 - git push -u origin new_brach_name_after_creation
 If we are having master branch instead of main branch to change the name .
- - git branch -M master main
+ ```
+ git branch -M master main
+```
 Note : If ur trying to push the code and it is not happening with main branch .Try to create a new branch and push it
 
 ### Set up an AWS EC2 instance
