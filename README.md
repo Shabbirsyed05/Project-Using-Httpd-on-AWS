@@ -35,6 +35,10 @@ If we are having master branch instead of main branch to change the name .
 git remote -v
 git pull origin main --allow-unrelated-histories
 ```
+for setting the origin
+```
+git remote set-url origin https://github.com/Shabbirsyed05/jen.git
+```
 
 ### Set up an AWS EC2 instance
 
